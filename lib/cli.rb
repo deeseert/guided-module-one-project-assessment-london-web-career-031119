@@ -1,13 +1,16 @@
 class CLI
+
   # attr_writer :user_name
 
   def initialize
     @prompt = TTY::Prompt.new
   end
 
+
   def welcome
     puts 'Welcome to Felp, the best resource for restaurant information in the world!'
   end
+
 
   def find_create_user
     puts "Heya! let me find your account!"
