@@ -3,4 +3,5 @@ class User < ActiveRecord::Base
   has_many :restaurants, through: :bookings
 
   validates :name, presence: true
+
 end

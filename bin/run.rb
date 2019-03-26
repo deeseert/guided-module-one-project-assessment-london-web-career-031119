@@ -1,3 +1,8 @@
 require_relative '../config/environment'
 
-puts "hello world"
+cli = CLI.new
+
+cli.welcome
+cli.find_create_user
+cli.get_user_restaurant
+cli.update_list
